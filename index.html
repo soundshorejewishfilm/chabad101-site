@@ -31,7 +31,7 @@ body{margin:0;background:var(--bg);color:var(--cream);font-family:var(--body);fo
 .top{display:flex;justify-content:space-between;align-items:center;font-weight:800;font-size:14px;color:var(--gold2);padding-block:14px}
 .top .org{letter-spacing:.16em;text-transform:uppercase;font-size:12px;color:var(--sand)}
 .art{background:var(--hero) center/cover no-repeat;display:block;width:100%;max-width:1400px;margin:0 auto;aspect-ratio:2/1;-webkit-mask-image:linear-gradient(180deg,#000 85%,transparent);mask-image:linear-gradient(180deg,#000 85%,transparent)}
-.pres{font-size:clamp(15px,2.2vw,19px);font-weight:800;letter-spacing:.18em;text-transform:uppercase;color:var(--sand);padding:0 16px 4px}
+.pres{font-size:clamp(15px,2.2vw,19px);font-weight:800;letter-spacing:.18em;text-transform:uppercase;color:var(--sand);padding:0 16px 4px;display:flex;align-items:center;justify-content:center;gap:12px}.pres .vom{width:clamp(40px,6vw,58px);height:auto;flex:none}
 .vh{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
 .info{position:relative;display:flex;flex-direction:column;align-items:center;gap:6px;padding-block:8px 54px}
 .when{font-family:var(--poster);font-weight:900;font-weight:900;font-size:clamp(24px,4.4vw,40px);text-transform:uppercase;line-height:1.1}
@@ -109,7 +109,7 @@ a.card,a.sp{text-decoration:none;color:inherit;cursor:pointer;transition:transfo
 <body>
 <header class="hero">
   <div class="in gut"><div class="top"><span>B"H</span></div></div>
-  <div class="pres">Chabad 101 &amp; the Village of Mamaroneck present</div>
+  <div class="pres"><img class="vom" src="vom-seal.png" alt="Village of Mamaroneck seal"><span>Chabad 101 &amp; the Village of Mamaroneck present</span></div>
   <h1 class="vh">Maccabeats in Mamaroneck, Chanukah 2026. A benefit concert for Belev Echad.</h1>
   <div class="art" role="img" aria-label="Maccabeats in Mamaroneck, Chanukah 2026. A benefit concert for Belev Echad."></div>
   <div class="info gut">
